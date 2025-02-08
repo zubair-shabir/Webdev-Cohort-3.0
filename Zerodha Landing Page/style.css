@@ -4,24 +4,33 @@
     box-sizing: border-box;
     font-family: "Inter", serif;
     color: #424242;
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #666;
+    font-size: 14px;
 }
 
 nav {
+    box-shadow: 2px 1px 2px #eee;
+}
+
+nav>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
     width: 70%;
     margin: 0 auto;
+
+
 }
 
 .logo img {
-    width: 150px;
+    width: 130px;
 }
 
 .menu ul {
@@ -32,7 +41,7 @@ nav {
 }
 
 .menu ul li {
-    color: #a4a4a4;
+    color: #666;
     padding: 0 10px;
     font-size: 18px;
 
